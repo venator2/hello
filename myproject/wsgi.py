@@ -16,7 +16,7 @@ if path not in sys.path:
     sys.path.append(path)
 
 # Встановіть змінну середовища для вашого проекту
-os.environ['DJANGO_SETTINGS_MODULE'] = 'hello.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'myproject.settings'
 
 # Активуйте віртуальне оточення
 activate_this = '/home/venator3/hello/myenv/bin/activate_this.py'
